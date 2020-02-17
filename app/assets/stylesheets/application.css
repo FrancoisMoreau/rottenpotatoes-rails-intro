@@ -61,7 +61,7 @@ table#movies th {
   background-color: wheat;
 }
 
-table#movie th.hilite {
+.hilite {
   background-color: yellow;
 }
 
