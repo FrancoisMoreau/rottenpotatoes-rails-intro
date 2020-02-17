@@ -18,7 +18,7 @@ class MoviesController < ApplicationController
     when 'release_date'
       ordering, @date_header = {:release_date => :asc}, 'hilite'
     end
-    @movie = Movie.order(ordering)
+    @movies = Movie.order(ordering)
   end
 
   def new
